@@ -1,0 +1,66 @@
+@import "variable-declare.scss";
+@import "mixin-declare.scss";
+
+body {
+    background-image:$seaColerGradation
+}
+
+// ヘッダー
+.parallax-bg {
+  // パララックス
+  background-image: url('../images/parallax-bg.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 800px;
+}
+
+// メイン
+.mainFlame {
+  // フレックスコンテナ
+  display: flex;
+  flex-direction: row;
+  margin: $m3 $m2 $m2 $m2;
+}
+
+// アイコンバー
+.iconBarFlame {
+  // コンテナアイテム
+  box-sizing: border-box;
+  height: auto;
+  width: 15%;
+  padding-right: $p2;
+  background-color: black;
+}
+
+// アイコンバーグラスモーフィズムボタン
+.iconBarGrassBtn {
+  @include grassMorphism;
+  margin: $m0;
+  padding: $p2;
+}
+
+
+// メインページバー
+.pageBarFlame {
+  // コンテナアイテム
+  box-sizing: border-box;
+  height: auto;
+  width: 60%;
+  background-color: $sandColer;
+}
+
+// サブバー
+.subBarFlame {
+  // コンテナアイテム
+  box-sizing: border-box;
+  height: auto;
+  width: 25%;
+  padding-right: $p2;
+  background-color: yellow;
+}

@@ -1,0 +1,58 @@
+@charset "utf-8";
+// このscssファイルは変数宣言専用ファイルです。
+// ほかのscssファイルからインポートして使用してください
+
+// Javascriptと併用して利用する為、ケバブケースではなくキャメルケースを使用しております。ハイフンを使用するとエラーが出るから
+
+// グローバル変数宣言
+// 色変数宣言
+$sandColer:#F9EAC4;
+
+// グラデーション変数宣言
+$seaColerGradation:linear-gradient(to left, #2a20fd, #007cff, #00afff, #00d9ff, #86fcf9);
+
+
+
+
+// 細々したパーツ
+$boxRadius:10px;
+$contentPadding:10px 5px 5px 20px;
+$reset:0px;
+$faintGap: 7px;
+$faintTwoGap: 14px;
+
+
+// メディアクエリ
+
+
+// パディング＆マージン
+$m0:0px;
+$m1:8px;
+$m2:16px;
+$m3:24px;
+$m4:32px;
+
+$p0:0px;
+$p1:8px;
+$p2:16px;
+$p3:24px;
+$p4:32px;
+
+
+// ホバーアニメーション
+
+
+// グラスモーフィズム
+
+
+// ニューモフィズム変数宣言
+// 凸
+$convexNeumorphism: 25px 25px 49px #000052,
+-25px -25px 49px #000070;
+// 凹
+$concaveNeumorphism: inset 25px 25px 49px #000052,
+inset -25px -25px 49px #000070;
+
+// cssアニメーション
+
+// 変数宣言終わり
